@@ -1,0 +1,16 @@
+author: matejkoo
+description: Beta port of plugin VoidRespawn
+main: main.java.org.matejko.plugin.VoidRespawn
+name: VoidRespawn-beta-port
+version: 2
+commands:
+  void:
+    description: Set spawn location for void respawn.
+    usage: /<command> setspawn
+    permission: voidrespawn.setspawn
+    permission-message: You don't have permission to set the void respawn location.
+
+permissions:
+  voidrespawn.setspawn:
+    description: Allows a player to set the void respawn location.
+    default: op
